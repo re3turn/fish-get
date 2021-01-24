@@ -7,7 +7,7 @@ Interactive prompt reader and [`read`](http://fishshell.com/docs/current/command
 With [Fisher](https://github.com/jorgebucaran/fisher)
 
 ```
-fisher install re3turn/fish-get
+fisher install re3turn/fish-get jorgebucaran/getopts.fish
 ```
 
 ## Options
@@ -75,6 +75,10 @@ Use `--no-cursor` to hide the cursor and `--silent=NUMBER` to read up to `NUMBER
 ```fish
 get --prompt="Press any key to continue..." --no-cursor --silent=1
 ```
+
+## Dependencies
+
+- [jorgebucaran/getopts.fish](https://github.com/jorgebucaran/getopts.fish)
 
 ## License
 
